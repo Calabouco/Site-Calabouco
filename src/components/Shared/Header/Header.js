@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../assets/logocalaba.png';
+import logo from '../../../assets/logocalaba.png';
 
 export function Header() {
     return (

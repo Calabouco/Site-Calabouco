@@ -2,11 +2,19 @@
     height: 25rem;
     width: 100%;
     margin: 4rem auto;
+    background-image: url('../../assets/insta-fundo.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .insta-fundo {
-        width: 100%;
-        height: 100%;
+        width: 30%;
         object-fit: cover;
+
+        img{
+            width: 100%;
+        }
     }
 
 }

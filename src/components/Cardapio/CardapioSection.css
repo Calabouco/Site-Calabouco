@@ -1,0 +1,73 @@
+.div-cardapio {
+    height: 60rem;
+    width: 60%;
+    margin: 2rem auto;
+
+    h1 {
+        font-family: 'Anton';
+        color: #000;
+        margin: 0;
+        text-align: center;
+    }
+
+    hr {
+        width: 4rem;
+        height: 0.3rem;
+        background-color: #FFC700;
+        border: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 2rem 4rem 2rem;
+        align-items: center;
+
+        h2 {
+            margin: 0;
+        }
+
+        .col-img {
+            width: 60%;
+            height: 20rem;
+            border-radius: 1rem;
+            margin-left: 2rem;
+            width: 100%;
+        }
+
+        .col-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        .col-texto>button.btnCardapio {
+            font-family: 'Myriad Pro';
+            font-weight: bolder;
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            background: white;
+            color: #070707;
+            border: 2px solid #070707;
+            border-radius: 2rem;
+            cursor: pointer;
+            width: 50%;
+            
+        }
+        
+        
+    }
+    button.btnCardapioCompleto {
+        font-family: 'Myriad Pro';
+        font-weight: bolder;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        background: #070707;
+        color: white;
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        width: 50%;
+        
+    }
+
+
+}

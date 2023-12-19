@@ -1,0 +1,56 @@
+.div-calaboke{
+    height: 50rem;
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: 'Anton';
+        color: #070707;
+        margin: 0;
+        text-align: center;
+    }
+
+    hr.line {
+        width: 4rem;
+        height: 0.3rem;
+        background-color: #FFC700;
+        border: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        .col-img {
+            width: 100%;
+            height: 40rem;
+            border-radius: 1rem;
+        }
+
+        .col-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        button.btnInfos {
+            font-family: 'Myriad Pro';
+            font-weight: bolder;
+            padding: 1rem;
+            background: #070707;
+            color: white;
+            border: none;
+            border-radius: 2rem;
+            cursor: pointer;
+            width: 50%;
+            margin-top: 1rem;
+        }
+    }
+}

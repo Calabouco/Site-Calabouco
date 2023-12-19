@@ -1,0 +1,21 @@
+.App-header {
+    background-color: #000000;
+    height: 6.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+.logo {
+  width: 13.5rem;
+}
+
+.nav-cardapio, .nav-reservas{
+  margin-right: 2rem;
+}
+
+.nav-cardapio, .nav-reservas, .nav-programacao, .nav-eventos{
+  font-weight: bolder;
+}

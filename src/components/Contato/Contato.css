@@ -1,0 +1,33 @@
+.div-contato {
+    height: 20rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: 'Anton';
+        color: #070707;
+        margin: 0;
+        text-align: start;
+    }
+
+    hr.line {
+        width: 4rem;
+        height: 0.3rem;
+        background-color: #FFC700;
+        border: none;
+    }
+    
+    div.row-icons{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    div.row-icons>a>img {
+        width: 40px;
+        margin-right: 0.5rem;
+    }
+}

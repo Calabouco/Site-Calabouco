@@ -1,0 +1,12 @@
+.div-insta {
+    height: 25rem;
+    width: 100%;
+    margin: 4rem auto;
+
+    .insta-fundo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}

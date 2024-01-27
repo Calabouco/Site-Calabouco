@@ -4,7 +4,7 @@ import image3 from '../../assets/photos/7V9A5437.jpg';
 import image4 from '../../assets/photos/7V9A6220.jpg';
 import './SlideShow.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -19,8 +19,7 @@ export function SlideShow() {
   return (
     <Swiper
       className='swiper-container'
-      modules={[ Pagination, Autoplay ]}
-      autoplay={{ delay: 2000 }}
+      modules={[ Pagination ]}
       spaceBetween={50}
       slidesPerView={1}
       direction='vertical'

@@ -14,7 +14,9 @@
   }
 
 .logo {
-  width: 13.5rem;
+  width: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   cursor: pointer;
 }
 

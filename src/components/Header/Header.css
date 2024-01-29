@@ -6,10 +6,16 @@
     align-items: center;
     justify-content: center;
     color: white;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 
 .logo {
   width: 13.5rem;
+  cursor: pointer;
 }
 
 .nav-cardapio, .nav-reservas{
@@ -18,4 +24,5 @@
 
 .nav-cardapio, .nav-reservas, .nav-programacao, .nav-eventos{
   font-weight: bolder;
+  cursor: pointer;
 }

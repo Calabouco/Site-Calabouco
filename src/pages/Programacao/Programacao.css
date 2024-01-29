@@ -1,0 +1,45 @@
+div.div_programacao {
+color: #ffffff;
+background-color: #070707;
+width: 100%;
+
+    div.prog-content{
+        width: 80%;
+        margin: auto;
+
+        h1 {
+            font-family: 'Anton';
+        }
+    
+        div.row_title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 2rem;
+            
+            button.btnProgCompleta {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem 1.5rem 1rem 1.5rem;
+                    background: #FFF;
+                    color: #070707;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    height: 3rem;
+                    margin: auto 0;
+                    
+            }
+        }
+    
+        hr.line {
+            width: 6rem;
+            height: 0.3rem;
+            background-color: #FFC700;
+            border: none;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+
+}

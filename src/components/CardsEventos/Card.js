@@ -3,23 +3,53 @@ import './Card.css';
 export function Card() {
     const cards = [
         {
-            titulo: 'BAD MEDICINE',
-            subtitle: 'TRIBUTO BON JOVI',
-            data: '24/11',
-            link_sympla: 'www.google.com'
+            titulo: 'CALABOKÊ',
+            subtitle: 'KARAOKÊ DO CALABOUÇO',
+            data: '01/02',
+            link_sympla: 'https://www.sympla.com.br/evento/calaboke-karaoke-do-calaba/2320569'
         },
         {
-            titulo: 'BAD MEDICINE',
-            subtitle: 'TRIBUTO BON JOVI',
-            data: '24/11',
-            link_sympla: 'www.google.com'
+            titulo: 'BANDA VOODUO + LOFI',
+            subtitle: 'TRIBUTO WHITE STRIPES',
+            data: '02/02',
+            link_sympla: 'https://www.sympla.com.br/evento/banda-vooduo-lofi-tributo-white-stripes/2280161'
         },
         {
-            titulo: 'BAD MEDICINE',
-            subtitle: 'TRIBUTO BON JOVI',
-            data: '24/11',
-            link_sympla: 'www.google.com'
-        }
+            titulo: 'U2 RIO TRIBUTE',
+            subtitle: '',
+            data: '03/02',
+            link_sympla: 'https://www.sympla.com.br/evento/u2-rio-tribute/2274632'
+        },
+        {
+            titulo: 'CRUSHOKÊ',
+            subtitle: 'KARAOKÊ DE ROCK',
+            data: '08/02',
+            link_sympla: 'https://www.sympla.com.br/evento/crushoke-karaoke-de-rock/2320580'
+        },
+        {
+            titulo: 'MAIS DO MESMO',
+            subtitle: 'TRIBUTO LEGIÃO URBANA',
+            data: '09/02',
+            link_sympla: 'https://www.sympla.com.br/evento/mais-do-mesmo-tributo-legiao-urbana/2302758'
+        },
+        {
+            titulo: 'CALABOKÊ',
+            subtitle: 'KARAOKÊ DO CALABA',
+            data: '15/02',
+            link_sympla: 'https://www.sympla.com.br/evento/calaboke-karaoke-do-calaba/2320588'
+        },
+        {
+            titulo: 'AEROSMITH',
+            subtitle: 'PUMP',
+            data: '16/02',
+            link_sympla: 'https://www.sympla.com.br/evento/aerosmith-pump/2280047'
+        },
+        {
+            titulo: 'PEARL JAM + ALICE IN CHAINS',
+            subtitle: 'PURANO + OCCIPITAL',
+            data: '24/02',
+            link_sympla: 'https://www.sympla.com.br/evento/pearl-jam-purano-alice-in-chains-occipital/2302761'
+        },
     ];
 
     return (

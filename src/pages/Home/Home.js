@@ -1,11 +1,11 @@
-import { SlideShow } from '../../components/SlideShow/SlideShow';
-import { Intro } from '../../components/Intro/Intro';
-import { Espaco } from '../../components/Espaco/Espaco';
-import { Cardapio } from '../../components/Cardapio/CardapioSection';
-import { Eventos } from '../../components/Eventos/Eventos';
-import { Calaboke } from '../../components/Calaboke/Calaboke';
-import { Insta } from '../../components/Insta/Insta';
-import { Contato } from '../../components/Contato/Contato';
+import { SlideShow } from '../../components/SlideShow/SlideShow.js';
+import { Intro } from '../../components/Intro/Intro.js';
+import { Espaco } from '../../components/Espaco/Espaco.js';
+import { Cardapio } from '../../components/Cardapio/CardapioSection.js';
+import { Eventos } from '../../components/Eventos/Eventos.js';
+import { Calaboke } from '../../components/Calaboke/Calaboke.js';
+import { Insta } from '../../components/Insta/Insta.js';
+import { Contato } from '../../components/Contato/Contato.js';
 import frenteCalaba from '../../assets/Frame 1.png';
 import './Home.css';
 

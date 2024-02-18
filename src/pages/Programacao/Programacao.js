@@ -1,4 +1,4 @@
-import { Card } from '../../components/CardsEventos/Card';
+import { Card } from '../../components/CardsEventos/Card.js';
 import './Programacao.css';
 
 export function Programacao() {

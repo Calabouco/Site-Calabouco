@@ -8,3 +8,20 @@
     object-fit: cover;
     object-position: center bottom;
 }
+
+.btnCadastro {
+    z-index: 6000;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    font-family: 'Myriad Pro';
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background: #FFC700;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 20%;
+  }

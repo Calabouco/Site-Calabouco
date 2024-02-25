@@ -54,19 +54,33 @@ export function Card() {
 
     return (
         cards.map((item) =>
-            <div className='row-card'>
-                <div className='col-data'>
-                    <h1>{item.data}</h1>
-                    <hr className='linhaVert'/>
+            <div className='cards'><div className='desktop-prog'>
+                <div className='row-card'>
+                    <div className='col-data'>
+                        <h1>{item.data}</h1>
+                        <hr className='linhaVert' />
+                    </div>
+                    <div className='col-text'>
+                        <h2>{item.titulo}</h2>
+                        <p>{item.subtitle}</p>
+                    </div>
+                    <div className='col-ingresso'>
+                        <button className='btnIngresso' onClick={() => { window.open(item.link_sympla); } }>INGRESSO</button>
+                    </div>
                 </div>
-                <div className='col-text'>
-                    <h2>{item.titulo}</h2>
-                    <p>{item.subtitle}</p>
+            </div><div className='mobile-prog'>
+                <div className='row-card'>
+                    <div className='col-data'>
+                        <h1>{item.data}</h1>
+                        <hr className='linhaVert' />
+                    </div>
+                    <div className='col-text'>
+                        <h2>{item.titulo}</h2>
+                        <p>{item.subtitle}</p>
+                        <button className='btnIngresso' onClick={() => { window.open(item.link_sympla); } }>INGRESSO</button>
+                    </div>
                 </div>
-                <div className='col-ingresso'>
-                    <button className='btnIngresso' onClick={() => { window.open(item.link_sympla) }}>INGRESSO</button>
-                </div>
-            </div>
+                </div></div>
         )
     );
 }

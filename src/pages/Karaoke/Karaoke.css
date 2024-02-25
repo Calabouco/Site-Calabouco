@@ -1,0 +1,125 @@
+.karaokePage {
+    width: 80%;
+    margin: auto;
+
+    p {
+        color: #070707
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .desktop-version-karaoke {
+            display: none;
+        }
+
+        .mobile-version-karaoke {
+            .title{
+                display: flex;
+                flex-direction: column;
+                margin: 2rem 0;
+        
+                h1 {
+                    font-family: 'Anton';
+                    color: #070707;
+                    margin: 0;
+                    text-align: center;
+                }
+            
+                hr {
+                    width: 4rem;
+                    height: 0.2rem;
+                    background-color: #FFC700;
+                    border: none;
+                }
+            }
+            .rowContent {
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    width: 100%;
+                    margin: auto;
+                    border-radius: 1rem;
+                }
+
+                button.btnProgramacao {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem 1.5rem 1rem 1.5rem;
+                    background: #070707;
+                    color: white;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 15rem;
+                    margin: auto;
+                    
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1001px) {
+        .mobile-version-karaoke {
+            display: none;
+        }
+
+        .desktop-version-karaoke {
+            .title{
+                display: flex;
+                flex-direction: column;
+                margin: 2rem 0;
+        
+                h1 {
+                    font-family: 'Anton';
+                    color: #070707;
+                    margin: 0;
+                    text-align: center;
+                }
+            
+                hr {
+                    width: 4rem;
+                    height: 0.3rem;
+                    background-color: #FFC700;
+                    border: none;
+                }
+            }
+        
+        
+            .row {
+                display: flex;
+                flex-direction: row;
+        
+                .col2 {
+                    width: 50%;
+        
+                    img {
+                        width: 100%;
+                    }
+                }
+        
+                .col1 {
+                    width: 50%;
+                    margin-right: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                }
+        
+                button.btnProgramacao {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem 1.5rem 1rem 1.5rem;
+                    background: #070707;
+                    color: white;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 50%;
+                    margin-top: 2rem;
+                    
+                }
+            }
+
+        }
+    }
+    
+}

@@ -23,6 +23,7 @@ export function Home() {
           <Calaboke />
           <Insta />
           <Contato />
+          <button className='btnCadastro' onClick={() => { window.open('https://docs.google.com/forms/d/1CFJyhJo6DvNYJ9NYwxKYgkBJBts3t1ImcqubBgvD-K4/prefill') }} >CADASTRE-SE</button>
         </>
     )
 }

@@ -20,7 +20,6 @@ width: 100%;
             button.btnProgCompleta {
                     font-family: 'Myriad Pro';
                     font-weight: bolder;
-                    padding: 1rem 1.5rem 1rem 1.5rem;
                     background: #FFF;
                     color: #070707;
                     border: none;
@@ -42,4 +41,29 @@ width: 100%;
         }
     }
 
+}
+
+@media only screen and (max-width:1000px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button.btnProgCompleta {
+        height: 2rem;
+        width: 40%;
+        font-size: 0.7rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        
+    }
+}
+
+@media only screen and (min-width:1001px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button.btnProgCompleta {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        
+    }
 }

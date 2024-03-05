@@ -3,6 +3,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
 
@@ -10,6 +11,10 @@
         font-family: 'Anton';
         color: #070707;
         margin: 0;
+        text-align: start;
+    }
+
+    p {
         text-align: start;
     }
 
@@ -29,5 +34,37 @@
     div.row-icons>a>img {
         width: 40px;
         margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .div-contato {
+        height: 25rem;
+        margin-top: 2rem;
+
+        .contato-desktop {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .div-contato {
+        .contato-mobile{
+            display: none;
+        }
+
+        .contato-desktop {
+            margin-top: 2rem;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .div-contato {
+        .contato-mobile {
+            display: none;
+        }
     }
 }

@@ -38,3 +38,17 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-fotos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .quadro {
+        width: 70%;
+        height: 10rem;
+        margin: 0.5rem auto;
+    }
+
+}

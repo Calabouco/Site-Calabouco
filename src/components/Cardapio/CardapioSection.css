@@ -17,7 +17,7 @@
         border: none;
     }
 
-    .row {
+    .row-cardapio {
         display: flex;
         flex-direction: row;
         margin: 4rem 2rem 4rem 2rem;
@@ -41,7 +41,7 @@
             justify-content: start;
         }
 
-        .col-texto>button.btnCardapio {
+        button.btnCardapio {
             font-family: 'Myriad Pro';
             font-weight: bolder;
             padding: 1rem 1.5rem 1rem 1.5rem;
@@ -68,6 +68,63 @@
         width: 50%;
         
     }
+}
 
+@media only screen and (max-width: 800px) {
+    .div-cardapio {
+        height: 85rem;
+        width: 100%;
+        margin: 2rem auto 0 auto;
 
+        .desktop-cardapio {
+            display: none;
+        }
+
+        .mobile-cardapio {
+            .row-cardapio {
+                flex-direction: column;
+                margin: 0;
+
+                .col-texto {
+                    width: 70%;
+                    margin-top: 1rem;
+                }
+
+                .col-img {
+                    height: 20rem;
+                    width: 100%;
+                    margin: 1rem auto;
+
+                    img {
+                        border-radius: 0;
+                        object-position: top;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .div-cardapio {
+        height: 55rem;
+        width: 80%;
+
+        .mobile-cardapio {
+            display: none;
+        }
+
+        .desktop-cardapio {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .div-cardapio {
+        .mobile-cardapio {
+            display: none;
+        }
+    }
 }

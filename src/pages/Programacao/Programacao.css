@@ -43,27 +43,15 @@ width: 100%;
 
 }
 
-@media only screen and (max-width:1000px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    button.btnProgCompleta {
-        height: 2rem;
-        width: 40%;
-        font-size: 0.7rem;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        
-    }
-}
-
-@media only screen and (min-width:1001px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    button.btnProgCompleta {
-        padding: 1rem 1.5rem 1rem 1.5rem;
-        
+@media only screen and (max-width: 400px) {
+    .div_programacao {
+        div.prog-content {
+            div.row_title {
+                button.btnProgCompleta {
+                    font-size: 0.5rem;
+                    margin: auto 1rem !important;
+                }
+            }
+        }
     }
 }

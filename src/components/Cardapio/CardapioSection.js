@@ -38,10 +38,11 @@ export function Cardapio() {
         <div className='div-cardapio'>
             <h1>BEST SELLERS DO CARDÁPIO</h1>
             <hr className='line'></hr>
+            <div className='desktop-cardapio'>
                 {
                     famosinhos.map((famoso, i) => (
                         <>
-                        <div className='row'>
+                        <div className='row-cardapio'>
                             <div className='col-texto'>
                                 <h2>{ famoso.nome.toUpperCase() }</h2>
                                 <p>{ famoso.desc.toUpperCase() }</p>
@@ -53,7 +54,26 @@ export function Cardapio() {
                         </div></>
                     ))
                 }
-            <button className='btnCardapioCompleto' onClick={() => { window.open('https://www.menudigital.app.br/calaba/') }}>VER CARDAPIO COMPLETO</button>
+            </div>
+
+            <div className='mobile-cardapio'>
+                {
+                    famosinhos.map((famoso, i) => (
+                        <>
+                        <div className='row-cardapio'>
+                            <div className='col-texto'>
+                                <h2>{ famoso.nome.toUpperCase() }</h2>
+                                <p>{ famoso.desc.toUpperCase() }</p>
+                            </div>
+                            <button className='btnCardapio' onClick={() => { window.open('https://www.menudigital.app.br/calaba/#14611') }}>VER NO CARDAPIO</button>
+                            <div className='col-img'>
+                                <img className='img' src={famoso.foto} alt='foto 1'></img>
+                            </div>
+                        </div></>
+                    ))
+                }
+            </div>
+            {/* <button className='btnCardapioCompleto' onClick={() => { window.open('https://www.menudigital.app.br/calaba/') }}>VER CARDAPIO COMPLETO</button> */}
         </div>
     )
 }

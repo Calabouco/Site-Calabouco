@@ -20,15 +20,14 @@
         background-color: #FFC700;
         border: none;
     }
-    
+
     .row {
         display: flex;
         flex-direction: row;
-
+    
         width: 70%;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-
+        margin: 4rem auto 2rem auto;
+    
         .col-img, .col-img2 {
             width: 50%;
             height: 30rem;
@@ -48,7 +47,7 @@
             flex-direction: column;
             justify-content: flex-start;
             width: 50%;
-
+    
             h2 {
                 font-family: 'Anton';
                 text-align: start;
@@ -63,7 +62,7 @@
                 line-height: 2rem;
                 color: white;
             }
-
+    
             button.btnReserva {
                 font-family: 'Myriad Pro';
                 font-weight: bolder;
@@ -86,6 +85,235 @@
             border-radius: 1rem;
         }
     }
-    
-    
+}
+
+
+@media only screen and (max-width: 400px) {
+    .div-eventos {
+        padding: 2rem 0 0 0;
+        margin: 0 auto 0 auto;
+        height: 155rem;
+
+        .desktop-eventos {
+            display: none;
+        }
+
+        .mobile-eventos {
+            width: 100%;
+            .row {
+                flex-direction: column;
+                margin: 2rem auto 2rem auto;
+
+                h2 {
+                    font-family: 'Anton';
+                    text-align: start;
+                    margin-top: 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: lighter;
+                    text-align: left;
+                    line-height: 2rem;
+                    color: white;
+                }
+
+                .row-img {
+                    height: 20rem;
+                }
+
+                button.btnReserva {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem;
+                    background: white;
+                    color: #070707;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 50%;
+                    margin-top: 2rem;
+                } 
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .div-eventos {
+        padding: 2rem 0 0 0;
+        margin: 0 auto 0 auto;
+        height: 145rem;
+
+        .desktop-eventos {
+            display: none;
+        }
+
+        .mobile-eventos {
+            width: 100%;
+            .row {
+                flex-direction: column;
+                margin: 2rem auto 2rem auto;
+
+                h2 {
+                    font-family: 'Anton';
+                    text-align: start;
+                    margin-top: 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: lighter;
+                    text-align: left;
+                    line-height: 2rem;
+                    color: white;
+                }
+
+                .row-img {
+                    height: 20rem;
+                }
+
+                button.btnReserva {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem;
+                    background: white;
+                    color: #070707;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 50%;
+                    margin-top: 2rem;
+                } 
+            }
+        }
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .div-eventos {
+        padding: 2rem 0 0 0;
+        margin: 0 auto 0 auto;
+        height: 136rem;
+
+        .desktop-eventos {
+            display: none;
+        }
+
+        .mobile-eventos {
+            width: 100%;
+            .row {
+                flex-direction: column;
+                margin: 2rem auto 2rem auto;
+
+                h2 {
+                    font-family: 'Anton';
+                    text-align: start;
+                    margin-top: 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: lighter;
+                    text-align: left;
+                    line-height: 2rem;
+                    color: white;
+                }
+
+                .row-img {
+                    height: 20rem;
+                }
+
+                button.btnReserva {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem;
+                    background: white;
+                    color: #070707;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 50%;
+                    margin-top: 2rem;
+                } 
+            }
+        }
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .div-eventos {
+        padding: 2rem 0 0 0;
+        margin: 0 auto 0 auto;
+        height: 130rem;
+
+        .desktop-eventos {
+            display: none;
+        }
+
+        .mobile-eventos {
+            width: 100%;
+            .row {
+                flex-direction: column;
+                margin: 2rem auto 2rem auto;
+
+                h2 {
+                    font-family: 'Anton';
+                    text-align: start;
+                    margin-top: 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: lighter;
+                    text-align: left;
+                    line-height: 2rem;
+                    color: white;
+                }
+
+                .row-img {
+                    height: 20rem;
+                }
+
+                button.btnReserva {
+                    font-family: 'Myriad Pro';
+                    font-weight: bolder;
+                    padding: 1rem;
+                    background: white;
+                    color: #070707;
+                    border: none;
+                    border-radius: 2rem;
+                    cursor: pointer;
+                    width: 50%;
+                    margin-top: 2rem;
+                } 
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .div-eventos {
+        height: 120rem;
+        width: 90%;
+
+        .mobile-eventos {
+            display: none;
+        }
+
+        .desktop-eventos {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .div-eventos {
+        .mobile-eventos {
+            display: none;
+        }
+    }
 }

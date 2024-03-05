@@ -1,8 +1,17 @@
 a {
     text-decoration: none;
     color: white;
+
+    p {
+        font-size: 1.2rem;
+    }
 }
 
 li {
-    list-style-type: none
+    list-style-type: none;
+
+    p {
+        font-size: 1.2rem;
+    }
+    
 }

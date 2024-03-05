@@ -20,23 +20,44 @@ export function Intro() {
     ]
     return (
         <div className='div-intro'>
-            <div className='row'>
-                <div className='col-img'>
+            <div className='desktop-intro'>
+                <div className='row'>
+                    <div className='col-img'>
+                        <img className='img' src={photos[0]} alt='foto 1'></img>
+                    </div>
+                    <div className='col-texto'>
+                        <h2>{ titulos[0].toUpperCase() }</h2>
+                        <p>{ textos[0] }</p>
+                    </div>
+                </div>
+                <div className='row'>
+                <div className='col-texto2'>
+                        <h2>{ titulos[1].toUpperCase() }</h2>
+                        <p>{ textos[1] }</p>
+                    </div>
+                    <div className='col-img2'>
+                    <img className='img' src={photos[1]} alt='foto 1'></img>
+                    </div>
+                </div>
+            </div>
+
+            {/* ----- mobile version ----- */}
+            <div className='mobile-intro'>
+                <div className='row-img'>
                     <img className='img' src={photos[0]} alt='foto 1'></img>
                 </div>
-                <div className='col-texto'>
+                <div className='row-txt'>
                     <h2>{ titulos[0].toUpperCase() }</h2>
                     <p>{ textos[0] }</p>
                 </div>
-            </div>
-            <div className='row'>
-            <div className='col-texto2'>
+                <div className='row-img'>
+                    <img className='img' src={photos[1]} alt='foto 1'></img>
+                </div>
+                <div className='row-txt'>
                     <h2>{ titulos[1].toUpperCase() }</h2>
                     <p>{ textos[1] }</p>
                 </div>
-                <div className='col-img2'>
-                <img className='img' src={photos[1]} alt='foto 1'></img>
-                </div>
+
             </div>
         </div>
     );

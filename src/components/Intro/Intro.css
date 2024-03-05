@@ -70,9 +70,11 @@
                 p {
                     font-size: 1.2rem;
                     text-align: center;
+                    font-weight: lighter;
                 }
 
                 h2 {
+                    font-family: 'Anton';
                     font-size: 1.2rem;
                     text-align: center;
                 }
@@ -123,6 +125,7 @@
                 .col-texto, .col-texto2 {
                 
                     h2 {
+                        font-family: 'Anton';
                         font-size: 2.5rem;
                     }
                     

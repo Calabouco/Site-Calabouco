@@ -29,4 +29,9 @@
   .sidebar.open {
     translate: 0px 0px;
   }
+
+  h2 {
+    font-family: 'Anton';
+  }
+
 }

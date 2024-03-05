@@ -5,6 +5,7 @@ import { Home } from './pages/Home/Home.js';
 import { Karaoke } from './pages/Karaoke/Karaoke.js';
 import { Programacao } from './pages/Programacao/Programacao.js';
 import { useState } from 'react';
+import close from './assets/marca-cruzada.png';
 
 function App() {
   const [page, setPage] = useState('home');

@@ -40,8 +40,12 @@
       margin-right: 3rem;
     }
 
-    .mobile-version > img {
+    .mobile-version > img.imageMenu {
       width: 2rem;
+      margin-right: 3rem;
+    }
+    .mobile-version > img.imageCloseMenu {
+      width: 1.5rem;
       margin-right: 3rem;
     }
   }

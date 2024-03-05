@@ -1,6 +1,7 @@
 import './Header.css';
 import logo from '../../assets/logo.png';
 import menu from '../../assets/menu.png';
+import close from '../../assets/marca-cruzada.png';
 
 export function Header({ setActualPage, openMenuBar, setOpenMenuBar }) {
 
@@ -18,7 +19,10 @@ export function Header({ setActualPage, openMenuBar, setOpenMenuBar }) {
             </div>
 
             <div className='col2 mobile-version'>
-                <img src={menu} alt='menu' className='imageMenu' onClick={() => setOpenMenuBar(!openMenuBar)}></img>
+                { openMenuBar ?
+                    <img src={close} alt='close menu' className='imageCloseMenu' onClick={() => setOpenMenuBar(!openMenuBar)}></img> 
+                    : <img src={menu} alt='menu' className='imageMenu' onClick={() => setOpenMenuBar(!openMenuBar)}></img>
+                }
             </div>
         </header>
     )

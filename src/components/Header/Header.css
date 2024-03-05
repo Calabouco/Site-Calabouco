@@ -83,6 +83,10 @@
         .nav-cardapio, .nav-reservas, .nav-programacao, .nav-eventos, .nav-karaoke{
           margin-right: 2rem;
         }
+
+        .nav-programacao, .nav-karaoke {
+          font-size: 1.2rem;
+        }
       }
 
       .mobile-version {
